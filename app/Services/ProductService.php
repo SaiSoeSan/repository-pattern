@@ -28,7 +28,7 @@ class ProductService {
         return $this->productRepository->all();
     }
 
-    public function find(int $id): ?User
+    public function find(int $id): ?Product
     {
         return $this->productRepository->find($id);
     }
